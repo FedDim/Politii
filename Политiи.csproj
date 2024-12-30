@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Генерація\" />
+    <Folder Include="Система\" />
+  </ItemGroup>
+
 </Project>

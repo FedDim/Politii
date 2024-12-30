@@ -1,6 +1,6 @@
-﻿namespace Politii
+﻿namespace Политiи
 {
-    internal class Program
+    public class Программа
     {
         static void Main(string[] args)
         {
