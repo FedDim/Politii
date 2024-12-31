@@ -1,4 +1,4 @@
-﻿namespace Политiи.Данные
+﻿namespace Политiи.Данныя
 {
     public class Политія(int номеръ, string имя, string цвѣтъ)
     {

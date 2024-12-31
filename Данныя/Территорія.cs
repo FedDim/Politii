@@ -1,4 +1,4 @@
-﻿namespace Политiи.Данные
+﻿namespace Политiи.Данныя
 {
     public class Территорія(int номеръ, int типъ)
     {
