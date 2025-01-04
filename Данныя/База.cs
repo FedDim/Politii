@@ -6,9 +6,8 @@
         public const int ЦЗ_ПОРТЪ = 5;
         public const int ЦЗ_КРѢПОСТЬ = 10;
 
-        public const string ТЕРРИТОРІЯ_ПОЛЕ = "###";
-        public const string ТЕРРИТОРІЯ_МОРЕ = "~~~";
-        public const string ТЕРРИТОРІЯ_КРѢПОСТЬ = "^:^";
-        public const string ТЕРРИТОРІЯ_ПОРТЪ = "_|_";
+        public const string ТЕРРИТОРІЯ_ЗЕМЛЯ = "#";
+        public const string ТЕРРИТОРІЯ_МОРЕ = "~";
+        public const string ТЕРРИТОРІЯ_ГОРА = "^";
     }
 }

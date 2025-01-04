@@ -6,11 +6,18 @@ namespace Политiи
     {
         static void Main(string[] args)
         {
-            for (int y = 0; y < Дата.карта.GetLength(0); y++)
+            Random random = new();
+
+            int число = random.Next(50, 101);
+
+            Дата.карта = new(число, random.Next(число - число / 10, число + число / 10 + 1));
+            Дата.карта.Мѣстность = Генерація.ГенераціяКарты.ГенераціяМѣстности(Дата.карта);
+
+            for (int y = 0; y < Дата.карта.Высота; y++)
             {
-                for (int x = 0; x < Дата.карта.GetLength(1); x++)
+                for (int x = 0; x < Дата.карта.Ширина; x++)
                 {
-                    Console.Write(Дата.карта[y, x]);
+                    Console.Write(Дата.карта.Мѣстность[x, y]);
                 }
                 Console.WriteLine();
             }
